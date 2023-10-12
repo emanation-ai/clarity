@@ -22,3 +22,7 @@ debug.log
 
 # environment file
 .env
+
+!packages/clarity-js/build
+
+.DS_Store
