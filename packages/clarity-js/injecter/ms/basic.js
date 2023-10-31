@@ -6,9 +6,7 @@
     }
   t = l.createElement(r)
   t.async = 1
-  t.src = "./injecter/basic-src.js"
-  // t.src = "https://cdn.croboost.ai/.../clarity"
-  // t.src = "https://www.clarity.ms/tag/" + i
+  t.src = "https://www.clarity.ms/tag/" + i
   y = l.getElementsByTagName(r)[0]
   y.parentNode.insertBefore(t, y)
 })(window, document, "clarity", "script")
